@@ -1,29 +1,38 @@
 # DelphiPatterns
+This project should represent a complete set of all the GoF design patterns implemented in Delphi language. 
+
 Clone of https://delphipatterns.codeplex.com/ with minor changes for Delphi 10 Seattle support.
 
 Each pattern is implemented in seperate directory/project. The pattern is in the *Pattern.pas* file, while the example for it is in the .DPR
 
 List of patterns
-* Behavioral.ChainOfResponsibility
-* Behavioral.Command
-* Behavioral.Interpreter
-* Behavioral.Iterator
-* Behavioral.Mediator
-* Behavioral.Memento
-* Behavioral.Observer
-* Behavioral.State
-* Behavioral.TemplateMethod
-* Behavioral.Visitor
-* Behavoral.Strategy
-* Creational.AbstractFactory
-* Creational.Builder
-* Creational.FactoryMethod
-* Creational.Prototype
-* Creational.Singleton
-* Structural.Adapter
-* Structural.Bridge
-* Structural.Composite
-* Structural.Decorator
-* Structural.Facade
-* Structural.Flyweight
-* Structural.Proxy
+* Behavioral
+  * Chain Of Responsibility
+  * Command
+  * Interpreter
+  * Iterator
+  * Mediator
+  * Memento
+  * Observer
+  * State
+  * Template Method
+  * Visitor
+  * Strategy
+* Creational
+  * AbstractFactory
+  * Builder
+  * FactoryMethod
+  * Prototype
+  * Singleton
+* Structural
+  * Adapter
+  * Bridge
+  * Composite
+  * Decorator
+  * Facade
+  * Flyweight
+  * Proxy
+
+#License
+
+The license is stil Common Development and Distribution License (CDDL), the same as the original implementation.
