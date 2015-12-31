@@ -15,7 +15,6 @@ List of patterns
 * Behavioral.TemplateMethod
 * Behavioral.Visitor
 * Behavoral.Strategy
-* BuildProcessTemplates
 * Creational.AbstractFactory
 * Creational.Builder
 * Creational.FactoryMethod
