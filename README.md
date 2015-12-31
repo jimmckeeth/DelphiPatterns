@@ -7,7 +7,7 @@ Each pattern is implemented in seperate directory/project. The pattern is in the
 
 List of patterns
 * Behavioral
-  * Chain Of Responsibility
+  * Chain of Responsibility
   * Command
   * Interpreter
   * Iterator
@@ -19,9 +19,9 @@ List of patterns
   * Visitor
   * Strategy
 * Creational
-  * AbstractFactory
+  * Abstract Factory
   * Builder
-  * FactoryMethod
+  * Factory Method
   * Prototype
   * Singleton
 * Structural
