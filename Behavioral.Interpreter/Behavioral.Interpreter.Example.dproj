@@ -8,7 +8,7 @@
         <DCC_DependencyCheckOutputName>Behavioral.Interpreter.Pattern.exe</DCC_DependencyCheckOutputName>
         <FrameworkType>None</FrameworkType>
         <MainSource>Behavioral.Interpreter.Example.dpr</MainSource>
-        <Platform Condition="'$(Platform)'==''">Win64</Platform>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
         <ProjectGuid>{032377e1-7134-4800-8cc3-94aad7d2b5e6}</ProjectGuid>
         <ProjectName Condition="'$(ProjectName)'==''">Behavioral.Interpreter.Example</ProjectName>
         <ProjectVersion>20.1</ProjectVersion>
