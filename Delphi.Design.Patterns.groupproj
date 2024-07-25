@@ -1,254 +1,300 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectGuid>{14287530-7bfe-4394-a363-447f24eec927}</ProjectGuid>
-  </PropertyGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <Projects Include="Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Pattern.dproj" />
-    <Projects Include="Behavioral.Command\Behavioral.Command.Pattern.dproj" />
-    <Projects Include="Behavioral.Interpreter\Behavioral.Interpreter.Pattern.dproj" />
-    <Projects Include="Behavioral.Iterator\Behavioral.Iterator.Pattern.dproj" />
-    <Projects Include="Behavioral.Mediator\Behavioral.Mediator.Pattern.dproj" />
-    <Projects Include="Behavioral.Memento\Behavioral.Memento.Pattern.dproj" />
-    <Projects Include="Behavioral.Observer\Behavioral.Observer.Pattern.dproj" />
-    <Projects Include="Behavioral.State\Behavioral.State.Pattern.dproj" />
-    <Projects Include="Behavioral.TemplateMethod\Behavioral.TemplateMethod.Pattern.dproj" />
-    <Projects Include="Behavioral.Visitor\Behavioral.Visitor.Pattern.dproj" />
-    <Projects Include="Behavoral.Strategy\Behavioral.Strategy.Pattern.dproj" />
-    <Projects Include="Creational.AbstractFactory\Creational.AbstractFactory.Pattern.dproj" />
-    <Projects Include="Creational.Builder\Creational.Builder.Pattern.dproj" />
-    <Projects Include="Creational.FactoryMethod\Creational.FactoryMethod.Pattern.dproj" />
-    <Projects Include="Creational.Prototype\Creational.Prototype.Pattern.dproj" />
-    <Projects Include="Creational.Singleton\Creational.Singleton.Pattern.dproj" />
-    <Projects Include="Structural.Adapter\Structural.Adapter.Pattern.dproj" />
-    <Projects Include="Structural.Bridge\Structural.Bridge.Pattern.dproj" />
-    <Projects Include="Structural.Composite\Structural.Composite.Pattern.dproj" />
-    <Projects Include="Structural.Decorator\Structural.Decorator.Pattern.dproj" />
-    <Projects Include="Structural.Facade\Structural.Facade.Pattern.dproj" />
-    <Projects Include="Structural.Flyweight\Structural.Flyweight.Pattern.dproj" />
-    <Projects Include="Structural.Proxy\Structural.Proxy.Pattern.dproj" />
-  </ItemGroup>
-  <ProjectExtensions>
-    <Borland.Personality>Default.Personality</Borland.Personality>
-    <Borland.ProjectType />
-    <BorlandProject>
-<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
-  </ProjectExtensions>
-  <Target Name="Structural_Decorator_Pattern">
-    <MSBuild Projects="Structural.Decorator\Structural.Decorator.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Structural_Decorator_Pattern:Clean">
-    <MSBuild Projects="Structural.Decorator\Structural.Decorator.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Structural_Decorator_Pattern:Make">
-    <MSBuild Projects="Structural.Decorator\Structural.Decorator.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Structural_Proxy_Pattern">
-    <MSBuild Projects="Structural.Proxy\Structural.Proxy.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Structural_Proxy_Pattern:Clean">
-    <MSBuild Projects="Structural.Proxy\Structural.Proxy.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Structural_Proxy_Pattern:Make">
-    <MSBuild Projects="Structural.Proxy\Structural.Proxy.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Structural_Bridge_Pattern">
-    <MSBuild Projects="Structural.Bridge\Structural.Bridge.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Structural_Bridge_Pattern:Clean">
-    <MSBuild Projects="Structural.Bridge\Structural.Bridge.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Structural_Bridge_Pattern:Make">
-    <MSBuild Projects="Structural.Bridge\Structural.Bridge.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Structural_Composite_Pattern">
-    <MSBuild Projects="Structural.Composite\Structural.Composite.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Structural_Composite_Pattern:Clean">
-    <MSBuild Projects="Structural.Composite\Structural.Composite.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Structural_Composite_Pattern:Make">
-    <MSBuild Projects="Structural.Composite\Structural.Composite.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Structural_Flyweight_Pattern">
-    <MSBuild Projects="Structural.Flyweight\Structural.Flyweight.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Structural_Flyweight_Pattern:Clean">
-    <MSBuild Projects="Structural.Flyweight\Structural.Flyweight.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Structural_Flyweight_Pattern:Make">
-    <MSBuild Projects="Structural.Flyweight\Structural.Flyweight.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Structural_Adapter_Pattern">
-    <MSBuild Projects="Structural.Adapter\Structural.Adapter.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Structural_Adapter_Pattern:Clean">
-    <MSBuild Projects="Structural.Adapter\Structural.Adapter.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Structural_Adapter_Pattern:Make">
-    <MSBuild Projects="Structural.Adapter\Structural.Adapter.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Structural_Facade_Pattern">
-    <MSBuild Projects="Structural.Facade\Structural.Facade.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Structural_Facade_Pattern:Clean">
-    <MSBuild Projects="Structural.Facade\Structural.Facade.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Structural_Facade_Pattern:Make">
-    <MSBuild Projects="Structural.Facade\Structural.Facade.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Creational_Prototype_Pattern">
-    <MSBuild Projects="Creational.Prototype\Creational.Prototype.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Creational_Prototype_Pattern:Clean">
-    <MSBuild Projects="Creational.Prototype\Creational.Prototype.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Creational_Prototype_Pattern:Make">
-    <MSBuild Projects="Creational.Prototype\Creational.Prototype.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Creational_FactoryMethod_Pattern">
-    <MSBuild Projects="Creational.FactoryMethod\Creational.FactoryMethod.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Creational_FactoryMethod_Pattern:Clean">
-    <MSBuild Projects="Creational.FactoryMethod\Creational.FactoryMethod.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Creational_FactoryMethod_Pattern:Make">
-    <MSBuild Projects="Creational.FactoryMethod\Creational.FactoryMethod.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Creational_Singleton_Pattern">
-    <MSBuild Projects="Creational.Singleton\Creational.Singleton.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Creational_Singleton_Pattern:Clean">
-    <MSBuild Projects="Creational.Singleton\Creational.Singleton.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Creational_Singleton_Pattern:Make">
-    <MSBuild Projects="Creational.Singleton\Creational.Singleton.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Creational_AbstractFactory_Pattern">
-    <MSBuild Projects="Creational.AbstractFactory\Creational.AbstractFactory.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Creational_AbstractFactory_Pattern:Clean">
-    <MSBuild Projects="Creational.AbstractFactory\Creational.AbstractFactory.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Creational_AbstractFactory_Pattern:Make">
-    <MSBuild Projects="Creational.AbstractFactory\Creational.AbstractFactory.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Creational_Builder_Pattern">
-    <MSBuild Projects="Creational.Builder\Creational.Builder.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Creational_Builder_Pattern:Clean">
-    <MSBuild Projects="Creational.Builder\Creational.Builder.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Creational_Builder_Pattern:Make">
-    <MSBuild Projects="Creational.Builder\Creational.Builder.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_Strategy_Pattern">
-    <MSBuild Projects="Behavoral.Strategy\Behavioral.Strategy.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_Strategy_Pattern:Clean">
-    <MSBuild Projects="Behavoral.Strategy\Behavioral.Strategy.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_Strategy_Pattern:Make">
-    <MSBuild Projects="Behavoral.Strategy\Behavioral.Strategy.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_State_Pattern">
-    <MSBuild Projects="Behavioral.State\Behavioral.State.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_State_Pattern:Clean">
-    <MSBuild Projects="Behavioral.State\Behavioral.State.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_State_Pattern:Make">
-    <MSBuild Projects="Behavioral.State\Behavioral.State.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_TemplateMethod_Pattern">
-    <MSBuild Projects="Behavioral.TemplateMethod\Behavioral.TemplateMethod.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_TemplateMethod_Pattern:Clean">
-    <MSBuild Projects="Behavioral.TemplateMethod\Behavioral.TemplateMethod.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_TemplateMethod_Pattern:Make">
-    <MSBuild Projects="Behavioral.TemplateMethod\Behavioral.TemplateMethod.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_ChainOfResponsibility_Pattern">
-    <MSBuild Projects="Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_ChainOfResponsibility_Pattern:Clean">
-    <MSBuild Projects="Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_ChainOfResponsibility_Pattern:Make">
-    <MSBuild Projects="Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_Command_Pattern">
-    <MSBuild Projects="Behavioral.Command\Behavioral.Command.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_Command_Pattern:Clean">
-    <MSBuild Projects="Behavioral.Command\Behavioral.Command.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_Command_Pattern:Make">
-    <MSBuild Projects="Behavioral.Command\Behavioral.Command.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_Iterator_Pattern">
-    <MSBuild Projects="Behavioral.Iterator\Behavioral.Iterator.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_Iterator_Pattern:Clean">
-    <MSBuild Projects="Behavioral.Iterator\Behavioral.Iterator.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_Iterator_Pattern:Make">
-    <MSBuild Projects="Behavioral.Iterator\Behavioral.Iterator.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_Mediator_Pattern">
-    <MSBuild Projects="Behavioral.Mediator\Behavioral.Mediator.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_Mediator_Pattern:Clean">
-    <MSBuild Projects="Behavioral.Mediator\Behavioral.Mediator.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_Mediator_Pattern:Make">
-    <MSBuild Projects="Behavioral.Mediator\Behavioral.Mediator.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_Observer_Pattern">
-    <MSBuild Projects="Behavioral.Observer\Behavioral.Observer.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_Observer_Pattern:Clean">
-    <MSBuild Projects="Behavioral.Observer\Behavioral.Observer.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_Observer_Pattern:Make">
-    <MSBuild Projects="Behavioral.Observer\Behavioral.Observer.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_Visitor_Pattern">
-    <MSBuild Projects="Behavioral.Visitor\Behavioral.Visitor.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_Visitor_Pattern:Clean">
-    <MSBuild Projects="Behavioral.Visitor\Behavioral.Visitor.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_Visitor_Pattern:Make">
-    <MSBuild Projects="Behavioral.Visitor\Behavioral.Visitor.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_Interpreter_Pattern">
-    <MSBuild Projects="Behavioral.Interpreter\Behavioral.Interpreter.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_Interpreter_Pattern:Clean">
-    <MSBuild Projects="Behavioral.Interpreter\Behavioral.Interpreter.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_Interpreter_Pattern:Make">
-    <MSBuild Projects="Behavioral.Interpreter\Behavioral.Interpreter.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Behavioral_Memento_Pattern">
-    <MSBuild Projects="Behavioral.Memento\Behavioral.Memento.Pattern.dproj" Targets="" />
-  </Target>
-  <Target Name="Behavioral_Memento_Pattern:Clean">
-    <MSBuild Projects="Behavioral.Memento\Behavioral.Memento.Pattern.dproj" Targets="Clean" />
-  </Target>
-  <Target Name="Behavioral_Memento_Pattern:Make">
-    <MSBuild Projects="Behavioral.Memento\Behavioral.Memento.Pattern.dproj" Targets="Make" />
-  </Target>
-  <Target Name="Build">
-    <CallTarget Targets="Structural_Decorator_Pattern;Structural_Proxy_Pattern;Structural_Bridge_Pattern;Structural_Composite_Pattern;Structural_Flyweight_Pattern;Structural_Adapter_Pattern;Structural_Facade_Pattern;Creational_Prototype_Pattern;Creational_FactoryMethod_Pattern;Creational_Singleton_Pattern;Creational_AbstractFactory_Pattern;Creational_Builder_Pattern;Behavioral_Strategy_Pattern;Behavioral_State_Pattern;Behavioral_TemplateMethod_Pattern;Behavioral_ChainOfResponsibility_Pattern;Behavioral_Command_Pattern;Behavioral_Iterator_Pattern;Behavioral_Mediator_Pattern;Behavioral_Observer_Pattern;Behavioral_Visitor_Pattern;Behavioral_Interpreter_Pattern;Behavioral_Memento_Pattern" />
-  </Target>
-  <Target Name="Clean">
-    <CallTarget Targets="Structural_Decorator_Pattern:Clean;Structural_Proxy_Pattern:Clean;Structural_Bridge_Pattern:Clean;Structural_Composite_Pattern:Clean;Structural_Flyweight_Pattern:Clean;Structural_Adapter_Pattern:Clean;Structural_Facade_Pattern:Clean;Creational_Prototype_Pattern:Clean;Creational_FactoryMethod_Pattern:Clean;Creational_Singleton_Pattern:Clean;Creational_AbstractFactory_Pattern:Clean;Creational_Builder_Pattern:Clean;Behavioral_Strategy_Pattern:Clean;Behavioral_State_Pattern:Clean;Behavioral_TemplateMethod_Pattern:Clean;Behavioral_ChainOfResponsibility_Pattern:Clean;Behavioral_Command_Pattern:Clean;Behavioral_Iterator_Pattern:Clean;Behavioral_Mediator_Pattern:Clean;Behavioral_Observer_Pattern:Clean;Behavioral_Visitor_Pattern:Clean;Behavioral_Interpreter_Pattern:Clean;Behavioral_Memento_Pattern:Clean" />
-  </Target>
-  <Target Name="Make">
-    <CallTarget Targets="Structural_Decorator_Pattern:Make;Structural_Proxy_Pattern:Make;Structural_Bridge_Pattern:Make;Structural_Composite_Pattern:Make;Structural_Flyweight_Pattern:Make;Structural_Adapter_Pattern:Make;Structural_Facade_Pattern:Make;Creational_Prototype_Pattern:Make;Creational_FactoryMethod_Pattern:Make;Creational_Singleton_Pattern:Make;Creational_AbstractFactory_Pattern:Make;Creational_Builder_Pattern:Make;Behavioral_Strategy_Pattern:Make;Behavioral_State_Pattern:Make;Behavioral_TemplateMethod_Pattern:Make;Behavioral_ChainOfResponsibility_Pattern:Make;Behavioral_Command_Pattern:Make;Behavioral_Iterator_Pattern:Make;Behavioral_Mediator_Pattern:Make;Behavioral_Observer_Pattern:Make;Behavioral_Visitor_Pattern:Make;Behavioral_Interpreter_Pattern:Make;Behavioral_Memento_Pattern:Make" />
-  </Target>
-  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+    <PropertyGroup>
+        <ProjectGuid>{14287530-7bfe-4394-a363-447f24eec927}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Structural.Decorator\Structural.Decorator.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Structural.Proxy\Structural.Proxy.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Structural.Bridge\Structural.Bridge.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Structural.Composite\Structural.Composite.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Structural.Flyweight\Structural.Flyweight.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Structural.Adapter\Structural.Adapter.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Creational.Prototype\Creational.Prototype.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Structural.Facade\Structural.Facade.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Creational.FactoryMethod\Creational.FactoryMethod.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Creational.Singleton\Creational.Singleton.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Creational.AbstractFactory\Creational.AbstractFactory.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Creational.Builder\Creational.Builder.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavoral.Strategy\Behavioral.Strategy.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.State\Behavioral.State.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.TemplateMethod\Behavioral.TemplateMethod.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.Iterator\Behavioral.Iterator.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.Mediator\Behavioral.Mediator.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.Observer\Behavioral.Observer.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.Visitor\Behavioral.Visitor.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.Interpreter\Behavioral.Interpreter.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.Memento\Behavioral.Memento.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Example.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Behavioral.Command\Behavioral.Command.Example.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Structural_Decorator_Example">
+        <MSBuild Projects="Structural.Decorator\Structural.Decorator.Example.dproj"/>
+    </Target>
+    <Target Name="Structural_Decorator_Example:Clean">
+        <MSBuild Projects="Structural.Decorator\Structural.Decorator.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Structural_Decorator_Example:Make">
+        <MSBuild Projects="Structural.Decorator\Structural.Decorator.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Structural_Proxy_Example">
+        <MSBuild Projects="Structural.Proxy\Structural.Proxy.Example.dproj"/>
+    </Target>
+    <Target Name="Structural_Proxy_Example:Clean">
+        <MSBuild Projects="Structural.Proxy\Structural.Proxy.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Structural_Proxy_Example:Make">
+        <MSBuild Projects="Structural.Proxy\Structural.Proxy.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Structural_Bridge_Example">
+        <MSBuild Projects="Structural.Bridge\Structural.Bridge.Example.dproj"/>
+    </Target>
+    <Target Name="Structural_Bridge_Example:Clean">
+        <MSBuild Projects="Structural.Bridge\Structural.Bridge.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Structural_Bridge_Example:Make">
+        <MSBuild Projects="Structural.Bridge\Structural.Bridge.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Structural_Composite_Example">
+        <MSBuild Projects="Structural.Composite\Structural.Composite.Example.dproj"/>
+    </Target>
+    <Target Name="Structural_Composite_Example:Clean">
+        <MSBuild Projects="Structural.Composite\Structural.Composite.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Structural_Composite_Example:Make">
+        <MSBuild Projects="Structural.Composite\Structural.Composite.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Structural_Flyweight_Example">
+        <MSBuild Projects="Structural.Flyweight\Structural.Flyweight.Example.dproj"/>
+    </Target>
+    <Target Name="Structural_Flyweight_Example:Clean">
+        <MSBuild Projects="Structural.Flyweight\Structural.Flyweight.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Structural_Flyweight_Example:Make">
+        <MSBuild Projects="Structural.Flyweight\Structural.Flyweight.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Structural_Adapter_Example">
+        <MSBuild Projects="Structural.Adapter\Structural.Adapter.Example.dproj"/>
+    </Target>
+    <Target Name="Structural_Adapter_Example:Clean">
+        <MSBuild Projects="Structural.Adapter\Structural.Adapter.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Structural_Adapter_Example:Make">
+        <MSBuild Projects="Structural.Adapter\Structural.Adapter.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Creational_Prototype_Example">
+        <MSBuild Projects="Creational.Prototype\Creational.Prototype.Example.dproj"/>
+    </Target>
+    <Target Name="Creational_Prototype_Example:Clean">
+        <MSBuild Projects="Creational.Prototype\Creational.Prototype.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Creational_Prototype_Example:Make">
+        <MSBuild Projects="Creational.Prototype\Creational.Prototype.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Structural_Facade_Example">
+        <MSBuild Projects="Structural.Facade\Structural.Facade.Example.dproj"/>
+    </Target>
+    <Target Name="Structural_Facade_Example:Clean">
+        <MSBuild Projects="Structural.Facade\Structural.Facade.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Structural_Facade_Example:Make">
+        <MSBuild Projects="Structural.Facade\Structural.Facade.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Creational_FactoryMethod_Example">
+        <MSBuild Projects="Creational.FactoryMethod\Creational.FactoryMethod.Example.dproj"/>
+    </Target>
+    <Target Name="Creational_FactoryMethod_Example:Clean">
+        <MSBuild Projects="Creational.FactoryMethod\Creational.FactoryMethod.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Creational_FactoryMethod_Example:Make">
+        <MSBuild Projects="Creational.FactoryMethod\Creational.FactoryMethod.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Creational_Singleton_Example">
+        <MSBuild Projects="Creational.Singleton\Creational.Singleton.Example.dproj"/>
+    </Target>
+    <Target Name="Creational_Singleton_Example:Clean">
+        <MSBuild Projects="Creational.Singleton\Creational.Singleton.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Creational_Singleton_Example:Make">
+        <MSBuild Projects="Creational.Singleton\Creational.Singleton.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Creational_AbstractFactory_Example">
+        <MSBuild Projects="Creational.AbstractFactory\Creational.AbstractFactory.Example.dproj"/>
+    </Target>
+    <Target Name="Creational_AbstractFactory_Example:Clean">
+        <MSBuild Projects="Creational.AbstractFactory\Creational.AbstractFactory.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Creational_AbstractFactory_Example:Make">
+        <MSBuild Projects="Creational.AbstractFactory\Creational.AbstractFactory.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Creational_Builder_Example">
+        <MSBuild Projects="Creational.Builder\Creational.Builder.Example.dproj"/>
+    </Target>
+    <Target Name="Creational_Builder_Example:Clean">
+        <MSBuild Projects="Creational.Builder\Creational.Builder.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Creational_Builder_Example:Make">
+        <MSBuild Projects="Creational.Builder\Creational.Builder.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_Strategy_Example">
+        <MSBuild Projects="Behavoral.Strategy\Behavioral.Strategy.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_Strategy_Example:Clean">
+        <MSBuild Projects="Behavoral.Strategy\Behavioral.Strategy.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_Strategy_Example:Make">
+        <MSBuild Projects="Behavoral.Strategy\Behavioral.Strategy.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_State_Example">
+        <MSBuild Projects="Behavioral.State\Behavioral.State.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_State_Example:Clean">
+        <MSBuild Projects="Behavioral.State\Behavioral.State.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_State_Example:Make">
+        <MSBuild Projects="Behavioral.State\Behavioral.State.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_TemplateMethod_Example">
+        <MSBuild Projects="Behavioral.TemplateMethod\Behavioral.TemplateMethod.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_TemplateMethod_Example:Clean">
+        <MSBuild Projects="Behavioral.TemplateMethod\Behavioral.TemplateMethod.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_TemplateMethod_Example:Make">
+        <MSBuild Projects="Behavioral.TemplateMethod\Behavioral.TemplateMethod.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_Iterator_Example">
+        <MSBuild Projects="Behavioral.Iterator\Behavioral.Iterator.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_Iterator_Example:Clean">
+        <MSBuild Projects="Behavioral.Iterator\Behavioral.Iterator.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_Iterator_Example:Make">
+        <MSBuild Projects="Behavioral.Iterator\Behavioral.Iterator.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_Mediator_Example">
+        <MSBuild Projects="Behavioral.Mediator\Behavioral.Mediator.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_Mediator_Example:Clean">
+        <MSBuild Projects="Behavioral.Mediator\Behavioral.Mediator.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_Mediator_Example:Make">
+        <MSBuild Projects="Behavioral.Mediator\Behavioral.Mediator.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_Observer_Example">
+        <MSBuild Projects="Behavioral.Observer\Behavioral.Observer.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_Observer_Example:Clean">
+        <MSBuild Projects="Behavioral.Observer\Behavioral.Observer.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_Observer_Example:Make">
+        <MSBuild Projects="Behavioral.Observer\Behavioral.Observer.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_Visitor_Example">
+        <MSBuild Projects="Behavioral.Visitor\Behavioral.Visitor.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_Visitor_Example:Clean">
+        <MSBuild Projects="Behavioral.Visitor\Behavioral.Visitor.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_Visitor_Example:Make">
+        <MSBuild Projects="Behavioral.Visitor\Behavioral.Visitor.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_Interpreter_Example">
+        <MSBuild Projects="Behavioral.Interpreter\Behavioral.Interpreter.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_Interpreter_Example:Clean">
+        <MSBuild Projects="Behavioral.Interpreter\Behavioral.Interpreter.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_Interpreter_Example:Make">
+        <MSBuild Projects="Behavioral.Interpreter\Behavioral.Interpreter.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_Memento_Example">
+        <MSBuild Projects="Behavioral.Memento\Behavioral.Memento.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_Memento_Example:Clean">
+        <MSBuild Projects="Behavioral.Memento\Behavioral.Memento.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_Memento_Example:Make">
+        <MSBuild Projects="Behavioral.Memento\Behavioral.Memento.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_ChainOfResponsibility_Example">
+        <MSBuild Projects="Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_ChainOfResponsibility_Example:Clean">
+        <MSBuild Projects="Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_ChainOfResponsibility_Example:Make">
+        <MSBuild Projects="Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Behavioral_Command_Example">
+        <MSBuild Projects="Behavioral.Command\Behavioral.Command.Example.dproj"/>
+    </Target>
+    <Target Name="Behavioral_Command_Example:Clean">
+        <MSBuild Projects="Behavioral.Command\Behavioral.Command.Example.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Behavioral_Command_Example:Make">
+        <MSBuild Projects="Behavioral.Command\Behavioral.Command.Example.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Structural_Decorator_Example;Structural_Proxy_Example;Structural_Bridge_Example;Structural_Composite_Example;Structural_Flyweight_Example;Structural_Adapter_Example;Creational_Prototype_Example;Structural_Facade_Example;Creational_FactoryMethod_Example;Creational_Singleton_Example;Creational_AbstractFactory_Example;Creational_Builder_Example;Behavioral_Strategy_Example;Behavioral_State_Example;Behavioral_TemplateMethod_Example;Behavioral_Iterator_Example;Behavioral_Mediator_Example;Behavioral_Observer_Example;Behavioral_Visitor_Example;Behavioral_Interpreter_Example;Behavioral_Memento_Example;Behavioral_ChainOfResponsibility_Example;Behavioral_Command_Example"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Structural_Decorator_Example:Clean;Structural_Proxy_Example:Clean;Structural_Bridge_Example:Clean;Structural_Composite_Example:Clean;Structural_Flyweight_Example:Clean;Structural_Adapter_Example:Clean;Creational_Prototype_Example:Clean;Structural_Facade_Example:Clean;Creational_FactoryMethod_Example:Clean;Creational_Singleton_Example:Clean;Creational_AbstractFactory_Example:Clean;Creational_Builder_Example:Clean;Behavioral_Strategy_Example:Clean;Behavioral_State_Example:Clean;Behavioral_TemplateMethod_Example:Clean;Behavioral_Iterator_Example:Clean;Behavioral_Mediator_Example:Clean;Behavioral_Observer_Example:Clean;Behavioral_Visitor_Example:Clean;Behavioral_Interpreter_Example:Clean;Behavioral_Memento_Example:Clean;Behavioral_ChainOfResponsibility_Example:Clean;Behavioral_Command_Example:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Structural_Decorator_Example:Make;Structural_Proxy_Example:Make;Structural_Bridge_Example:Make;Structural_Composite_Example:Make;Structural_Flyweight_Example:Make;Structural_Adapter_Example:Make;Creational_Prototype_Example:Make;Structural_Facade_Example:Make;Creational_FactoryMethod_Example:Make;Creational_Singleton_Example:Make;Creational_AbstractFactory_Example:Make;Creational_Builder_Example:Make;Behavioral_Strategy_Example:Make;Behavioral_State_Example:Make;Behavioral_TemplateMethod_Example:Make;Behavioral_Iterator_Example:Make;Behavioral_Mediator_Example:Make;Behavioral_Observer_Example:Make;Behavioral_Visitor_Example:Make;Behavioral_Interpreter_Example:Make;Behavioral_Memento_Example:Make;Behavioral_ChainOfResponsibility_Example:Make;Behavioral_Command_Example:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

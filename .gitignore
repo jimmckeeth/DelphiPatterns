@@ -101,3 +101,5 @@ $RECYCLE.BIN/
 *.lnk
 *.res
 *.stat
+*.otares
+*.ico
