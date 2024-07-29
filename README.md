@@ -35,6 +35,6 @@ Each pattern is implemented in seperate directory/project. The pattern is in the
   * **[Flyweight](Structural/Structural.Flyweight/Structural.Flyweight.Pattern.pas)** - reduces the cost of creating and manipulating a large number of similar objects.
   * **[Proxy](Structural/Structural.Proxy/Structural.Proxy.Pattern.pas)** [[Usage](Structural/Structural.Proxy/Structural.Proxy.Example.pas)] - provides a placeholder for another object to control access, reduce cost, and reduce complexity.
 
-#License
+# License
 
-The license is stil Common Development and Distribution License (CDDL), the same as the original implementation.
+The license is still [Common Development and Distribution License (CDDL)](https://github.com/jimmckeeth/DelphiPatterns/blob/master/LICENSE.md), the same as the original implementation. According to [FOSSA](https://fossa.com/blog/open-source-licenses-101-cddl-common-development-distribution-license/) it has similar provisions to the Mozilla Public License 2.0 and the Eclipse Public License. 
