@@ -4,11 +4,11 @@ program Creational.Singleton;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Creational.Singleton.Pattern in '..\..\Creational.Singleton\Creational.Singleton.Pattern.pas',
   Creational.Singleton.Example in '..\..\Creational.Singleton\Creational.Singleton.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

@@ -9,7 +9,7 @@
         <ProjectGuid>{1FD68A7C-3A01-4618-825E-6FD10824530F}</ProjectGuid>
         <ProjectName Condition="'$(ProjectName)'==''">Behavioral.Command</ProjectName>
         <ProjectVersion>20.3</ProjectVersion>
-        <TargetedPlatforms>3</TargetedPlatforms>
+        <TargetedPlatforms>131</TargetedPlatforms>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -77,7 +77,6 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\..\Common.pas"/>
         <DCCReference Include="..\..\Behavioral.Command\Behavioral.Command.Pattern.pas"/>
         <DCCReference Include="..\..\Behavioral.Command\Behavioral.Command.Example.pas"/>
         <BuildConfiguration Include="Base">
@@ -105,7 +104,7 @@
             <Platforms>
                 <Platform value="Android">False</Platform>
                 <Platform value="Android64">False</Platform>
-                <Platform value="Linux64">False</Platform>
+                <Platform value="Linux64">True</Platform>
                 <Platform value="OSX64">False</Platform>
                 <Platform value="OSXARM64">False</Platform>
                 <Platform value="Win32">True</Platform>

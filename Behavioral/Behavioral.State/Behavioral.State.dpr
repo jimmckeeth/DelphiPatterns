@@ -4,11 +4,11 @@ program Behavioral.State;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Behavioral.State.Pattern in '..\..\Behavioral.State\Behavioral.State.Pattern.pas',
   Behavioral.State.Example in '..\..\Behavioral.State\Behavioral.State.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

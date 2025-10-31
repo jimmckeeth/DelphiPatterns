@@ -4,11 +4,11 @@ program Structural.Decorator;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Structural.Decorator.Pattern in '..\..\Structural.Decorator\Structural.Decorator.Pattern.pas',
   Structural.Decorator.Example in '..\..\Structural.Decorator\Structural.Decorator.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

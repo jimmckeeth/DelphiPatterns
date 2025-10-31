@@ -1,4 +1,4 @@
-unit Behavioral.Mediator.Example;
+unit Behavioral.Memento.Example;
 
 interface
 

@@ -4,11 +4,11 @@ program Creational.FactoryMethod;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Creational.FactoryMethod.Pattern in '..\..\Creational.FactoryMethod\Creational.FactoryMethod.Pattern.pas',
   Creational.FactoryMethod.Example in '..\..\Creational.FactoryMethod\Creational.FactoryMethod.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

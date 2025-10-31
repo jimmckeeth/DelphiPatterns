@@ -4,11 +4,11 @@ program Structural.Bridge;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Structural.Bridge.Pattern in '..\..\Structural.Bridge\Structural.Bridge.Pattern.pas',
   Structural.Bridge.Example in '..\..\Structural.Bridge\Structural.Bridge.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

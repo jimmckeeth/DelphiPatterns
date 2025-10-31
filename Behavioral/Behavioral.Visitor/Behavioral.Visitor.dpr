@@ -4,11 +4,11 @@ program Behavioral.Visitor;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Behavioral.Visitor.Pattern in '..\..\Behavioral.Visitor\Behavioral.Visitor.Pattern.pas',
   Behavioral.Visitor.Example in '..\..\Behavioral.Visitor\Behavioral.Visitor.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

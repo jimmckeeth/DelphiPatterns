@@ -5,11 +5,11 @@ program Behavioral.Interpreter;
 uses
   SysUtils,
   Classes,
-  Common in '..\..\Common.pas',
   Behavioral.Interpreter.Pattern in '..\..\Behavioral.Interpreter\Behavioral.Interpreter.Pattern.pas',
   Behavioral.Interpreter.Example in '..\..\Behavioral.Interpreter\Behavioral.Interpreter.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     ReadLn;

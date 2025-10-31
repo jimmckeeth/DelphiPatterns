@@ -4,11 +4,11 @@ program Behavioral.ChainOfResponsibility;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Behavioral.ChainOfResponsibility.Pattern in '..\..\Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Pattern.pas',
   Behavioral.ChainOfResponsibility.Example in '..\..\Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

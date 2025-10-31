@@ -4,11 +4,11 @@ program Behavioral.Memento;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
-  Behavioral.Mediator.Example in 'Behavioral.Mediator.Example.pas',
+  Behavioral.Memento.Example in 'Behavioral.Memento.Example.pas',
   Behavioral.Memento.Pattern in 'Behavioral.Memento.Pattern.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

@@ -4,11 +4,11 @@ program Behavioral.TemplateMethod;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Behavioral.TemplateMethod.Pattern in '..\..\Behavioral.TemplateMethod\Behavioral.TemplateMethod.Pattern.pas',
   Behavioral.TemplateMethod.Example in '..\..\Behavioral.TemplateMethod\Behavioral.TemplateMethod.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

@@ -77,7 +77,6 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\..\Common.pas"/>
         <DCCReference Include="..\..\Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Pattern.pas"/>
         <DCCReference Include="..\..\Behavioral.ChainOfResponsibility\Behavioral.ChainOfResponsibility.Example.pas"/>
         <BuildConfiguration Include="Base">

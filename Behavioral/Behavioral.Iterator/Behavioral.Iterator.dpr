@@ -4,11 +4,11 @@ program Behavioral.Iterator;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Behavioral.Iterator.Pattern in '..\..\Behavioral.Iterator\Behavioral.Iterator.Pattern.pas',
   Behavioral.Iterator.Example in '..\..\Behavioral.Iterator\Behavioral.Iterator.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

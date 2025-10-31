@@ -4,11 +4,11 @@ program Structural.Composite;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Structural.Composite.Pattern in '..\..\Structural.Composite\Structural.Composite.Pattern.pas',
   Structural.Composite.Example in '..\..\Structural.Composite\Structural.Composite.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

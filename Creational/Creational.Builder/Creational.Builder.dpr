@@ -4,11 +4,11 @@ program Creational.Builder;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Creational.Builder.Pattern in '..\..\Creational.Builder\Creational.Builder.Pattern.pas',
   Creational.Builder.Example in '..\..\Creational.Builder\Creational.Builder.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

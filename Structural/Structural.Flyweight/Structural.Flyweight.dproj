@@ -12,7 +12,7 @@
         <ProjectGuid>{c934c540-64d5-480f-a57a-1c12b1700c2a}</ProjectGuid>
         <ProjectName Condition="'$(ProjectName)'==''">Structural.Flyweight</ProjectName>
         <ProjectVersion>20.3</ProjectVersion>
-        <TargetedPlatforms>3</TargetedPlatforms>
+        <TargetedPlatforms>131</TargetedPlatforms>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -114,7 +114,7 @@
             <Platforms>
                 <Platform value="Android">False</Platform>
                 <Platform value="Android64">False</Platform>
-                <Platform value="Linux64">False</Platform>
+                <Platform value="Linux64">True</Platform>
                 <Platform value="OSX64">False</Platform>
                 <Platform value="OSXARM64">False</Platform>
                 <Platform value="Win32">True</Platform>
@@ -130,7 +130,6 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\..\Common.pas"/>
         <DCCReference Include="..\..\Structural.Flyweight\Structural.Flyweight.Pattern.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>

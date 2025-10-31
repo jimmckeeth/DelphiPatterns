@@ -4,10 +4,10 @@ program Creational.Prototype;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Creational.Prototype.Pattern in '..\..\Creational.Prototype\Creational.Prototype.Pattern.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
   except
     on E:Exception do

@@ -4,11 +4,11 @@ program Creational.AbstractFactory;
 
 uses
   SysUtils,
-  Common in '..\Common.pas',
   Creational.AbstractFactory.Pattern in 'Creational.AbstractFactory.Pattern.pas',
   Creational.AbstractFactory.Example in 'Creational.AbstractFactory.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

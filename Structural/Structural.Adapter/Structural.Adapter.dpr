@@ -4,11 +4,11 @@ program Structural.Adapter;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Structural.Adapter.Pattern in '..\..\Structural.Adapter\Structural.Adapter.Pattern.pas',
   Structural.Adapter.Example in '..\..\Structural.Adapter\Structural.Adapter.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

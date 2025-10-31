@@ -4,11 +4,11 @@ program Behavioral.Observe;
 
 uses
   SysUtils,
-  Common in '..\..\Common.pas',
   Behavioral.Observer.Pattern in '..\..\Behavioral.Observer\Behavioral.Observer.Pattern.pas',
   Behavioral.Observer.Example in '..\..\Behavioral.Observer\Behavioral.Observer.Example.pas';
 
 begin
+  {$I ..\..\common.inc}
   try
     Example;
     Readln;

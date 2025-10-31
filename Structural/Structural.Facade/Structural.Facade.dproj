@@ -12,7 +12,7 @@
         <ProjectGuid>{7867179d-8ff8-48ad-96ed-c0f5add824b1}</ProjectGuid>
         <ProjectName Condition="'$(ProjectName)'==''">Structural.Facade</ProjectName>
         <ProjectVersion>20.3</ProjectVersion>
-        <TargetedPlatforms>3</TargetedPlatforms>
+        <TargetedPlatforms>131</TargetedPlatforms>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -114,7 +114,7 @@
             <Platforms>
                 <Platform value="Android">False</Platform>
                 <Platform value="Android64">False</Platform>
-                <Platform value="Linux64">False</Platform>
+                <Platform value="Linux64">True</Platform>
                 <Platform value="OSX64">False</Platform>
                 <Platform value="OSXARM64">False</Platform>
                 <Platform value="Win32">True</Platform>
@@ -130,7 +130,6 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\..\Common.pas"/>
         <DCCReference Include="..\..\Structural.Facade\Structural.Facade.Pattern.pas"/>
         <DCCReference Include="..\..\Structural.Facade\Structural.Facade.Example.pas"/>
         <BuildConfiguration Include="Base">
