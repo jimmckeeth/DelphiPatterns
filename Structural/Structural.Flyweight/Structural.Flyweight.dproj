@@ -130,7 +130,7 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\..\Structural.Flyweight\Structural.Flyweight.Pattern.pas"/>
+        <DCCReference Include="Structural.Flyweight.Pattern.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

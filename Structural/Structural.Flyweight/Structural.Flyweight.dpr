@@ -4,14 +4,16 @@ program Structural.Flyweight;
 
 uses
   SysUtils,
-  Structural.Flyweight.Pattern in '..\..\Structural.Flyweight\Structural.Flyweight.Pattern.pas';
+  Structural.Flyweight.Pattern in 'Structural.Flyweight.Pattern.pas';
 
 begin
-  {$I ..\..\common.inc}
+  {$I ..\..\ReportMemoryLeaks.inc}
   try
-    { TODO -oUser -cConsole Main : Insert code here }
+    {TODO : Structural.Flyweight.Pattern}
+    Writeln('ToDo: Structural.Flyweight.Pattern');
   except
     on E:Exception do
       Writeln(E.Classname, ': ', E.Message);
   end;
+  if UpperCase(ParamStr(1))<>'-SILENT' then Readln;
 end.

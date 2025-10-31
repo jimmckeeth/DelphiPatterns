@@ -8,12 +8,12 @@ uses
   Structural.Composite.Example in '..\..\Structural.Composite\Structural.Composite.Example.pas';
 
 begin
-  {$I ..\..\common.inc}
+  {$I ..\..\ReportMemoryLeaks.inc}
   try
     Example;
-    Readln;
   except
     on E:Exception do
       Writeln(E.Classname, ': ', E.Message);
   end;
+  if UpperCase(ParamStr(1))<>'-SILENT' then Readln;
 end.
