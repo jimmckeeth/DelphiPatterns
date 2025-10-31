@@ -8,7 +8,7 @@ Each pattern is implemented in seperate directory/project. The pattern is in the
 ## List of patterns
 * **Behavioral** - Most behavioral design patterns are specifically concerned with communication between objects.
   * **[Chain of Responsibility](Behavioral/Behavioral.ChainOfResponsibility/Behavioral.ChainOfResponsibility.Pattern.pas)** [[Usage](Behavioral/Behavioral.ChainOfResponsibility/Behavioral.ChainOfResponsibility.Example.pas)] - delegates commands to a chain of processing objects.
-  * **[Command](DelphiPatterns/blob/master/Behavioral/Behavioral.Command/Behavioral.Command.Pattern.pas)** [[Usage](Behavioral/Behavioral.Command/Behavioral.Command.Example.pas)] - creates objects that encapsulate actions and parameters.
+  * **[Command](/Behavioral/Behavioral.Command/Behavioral.Command.Pattern.pas)** [[Usage](Behavioral/Behavioral.Command/Behavioral.Command.Example.pas)] - creates objects that encapsulate actions and parameters.
   * **[Interpreter](Behavioral/Behavioral.Interpreter/Behavioral.Interpreter.Pattern.pas)** [[Usage](Behavioral/Behavioral.Interpreter/Behavioral.Interpreter.Example.pas)] - implements a specialized language.
   * **[Iterator](Behavioral/Behavioral.Iterator/Behavioral.Iterator.Pattern.pas)** [[Usage](Behavioral/Behavioral.Iterator/Behavioral.Iterator.Example.pas)] - accesses the elements of an object sequentially without exposing its underlying representation.
   * **[Mediator](Behavioral/Behavioral.Mediator/Behavioral.Mediator.Pattern.pas)** [[Usage](Behavioral/Behavioral.Mediator/Behavioral.Mediator.Example.pas)] - allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
