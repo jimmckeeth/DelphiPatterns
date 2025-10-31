@@ -103,3 +103,4 @@ $RECYCLE.BIN/
 *.stat
 *.otares
 *.ico
+**/__recovery
