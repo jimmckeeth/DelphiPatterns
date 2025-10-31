@@ -11,7 +11,7 @@
         <Platform Condition="'$(Platform)'==''">Win64</Platform>
         <ProjectGuid>{e2547eae-1b44-4e29-86c4-2f565e45b9b9}</ProjectGuid>
         <ProjectName Condition="'$(ProjectName)'==''">Structural.Adapter</ProjectName>
-        <ProjectVersion>20.1</ProjectVersion>
+        <ProjectVersion>20.3</ProjectVersion>
         <TargetedPlatforms>3</TargetedPlatforms>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
@@ -119,6 +119,7 @@
                 <Platform value="OSXARM64">False</Platform>
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">True</Platform>
+                <Platform value="Win64x">False</Platform>
                 <Platform value="iOSDevice64">False</Platform>
                 <Platform value="iOSSimARM64">False</Platform>
             </Platforms>
@@ -130,8 +131,8 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="..\..\Common.pas"/>
-        <DCCReference Include="Structural.Adapter.Pattern.pas"/>
-        <DCCReference Include="Structural.Adapter.Example.pas"/>
+        <DCCReference Include="..\..\Structural.Adapter\Structural.Adapter.Pattern.pas"/>
+        <DCCReference Include="..\..\Structural.Adapter\Structural.Adapter.Example.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

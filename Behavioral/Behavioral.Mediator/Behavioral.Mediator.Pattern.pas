@@ -85,9 +85,9 @@ end;
 procedure TConcreteMediator.Send(mess: string; colleague: TObject);
 begin
   if colleague = FColleague2 then
-    FColleague1.Notify(mess)
+    FColleague1.Notify(mess)  // Colleague 1
   else
-    FColleague2.Notify(mess);
+    FColleague2.Notify(mess); // Colleague 2
 end;
 
 end.

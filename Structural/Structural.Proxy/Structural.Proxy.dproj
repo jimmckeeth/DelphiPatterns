@@ -11,7 +11,7 @@
         <Platform Condition="'$(Platform)'==''">Win64</Platform>
         <ProjectGuid>{83b14f8c-eea8-4b6d-9d23-c22f157e0d32}</ProjectGuid>
         <ProjectName Condition="'$(ProjectName)'==''">Structural.Proxy</ProjectName>
-        <ProjectVersion>20.1</ProjectVersion>
+        <ProjectVersion>20.3</ProjectVersion>
         <TargetedPlatforms>3</TargetedPlatforms>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
@@ -119,6 +119,7 @@
                 <Platform value="OSXARM64">False</Platform>
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">True</Platform>
+                <Platform value="Win64x">False</Platform>
                 <Platform value="iOSDevice64">False</Platform>
                 <Platform value="iOSSimARM64">False</Platform>
             </Platforms>
@@ -130,8 +131,8 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="..\..\Common.pas"/>
-        <DCCReference Include="Structural.Proxy.Pattern.pas"/>
-        <DCCReference Include="Structural.Proxy.Example.pas"/>
+        <DCCReference Include="..\..\Structural.Proxy\Structural.Proxy.Pattern.pas"/>
+        <DCCReference Include="..\..\Structural.Proxy\Structural.Proxy.Example.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

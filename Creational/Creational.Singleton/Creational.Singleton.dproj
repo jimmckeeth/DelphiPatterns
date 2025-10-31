@@ -11,7 +11,7 @@
         <Platform Condition="'$(Platform)'==''">Win64</Platform>
         <ProjectGuid>{8bf5e379-531a-4a8d-b14e-956bc7ab4cbd}</ProjectGuid>
         <ProjectName Condition="'$(ProjectName)'==''">Creational.Singleton</ProjectName>
-        <ProjectVersion>20.1</ProjectVersion>
+        <ProjectVersion>20.3</ProjectVersion>
         <TargetedPlatforms>3</TargetedPlatforms>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
@@ -119,6 +119,7 @@
                 <Platform value="OSXARM64">False</Platform>
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">True</Platform>
+                <Platform value="Win64x">False</Platform>
                 <Platform value="iOSDevice64">False</Platform>
                 <Platform value="iOSSimARM64">False</Platform>
             </Platforms>
@@ -130,8 +131,8 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="..\..\Common.pas"/>
-        <DCCReference Include="Creational.Singleton.Pattern.pas"/>
-        <DCCReference Include="Creational.Singleton.Example.pas"/>
+        <DCCReference Include="..\..\Creational.Singleton\Creational.Singleton.Pattern.pas"/>
+        <DCCReference Include="..\..\Creational.Singleton\Creational.Singleton.Example.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

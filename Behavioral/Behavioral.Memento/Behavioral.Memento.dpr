@@ -5,8 +5,8 @@ program Behavioral.Memento;
 uses
   SysUtils,
   Common in '..\..\Common.pas',
-  Behavioral.Memento.Pattern in '..\..\Behavioral.Memento\Behavioral.Memento.Pattern.pas',
-  Behavioral.Mediator.Example in '..\..\Behavioral.Memento\Behavioral.Mediator.Example.pas';
+  Behavioral.Mediator.Example in 'Behavioral.Mediator.Example.pas',
+  Behavioral.Memento.Pattern in 'Behavioral.Memento.Pattern.pas';
 
 begin
   try
